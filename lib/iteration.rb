@@ -11,9 +11,9 @@ def find_greater_pair(src)
 end 
 
 def total_even_pairs(src)
-  src.map do |arr|
+  src.sum do |arr|
     arr[0].even? && arr[1].even? ? arr.sum : 0
-  end.sum
+  end
 end
 
 
