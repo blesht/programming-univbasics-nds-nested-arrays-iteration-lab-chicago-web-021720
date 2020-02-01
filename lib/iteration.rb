@@ -12,7 +12,7 @@ end
 
 def total_even_pairs(src)
   src.sum do |arr|
-    arr[0].even? && arr[1].even?
+    return arr if arr[0].even? && arr[1].even?
   end
 end
 
