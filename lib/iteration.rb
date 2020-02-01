@@ -6,9 +6,7 @@ end
 
 def find_greater_pair(src)
   src.map do |arr|
-    return arr[0]
-    
-    arr[1]
+    arr[0] > arr[1] ? arr[0] : arr[1]
   end
 end 
 
