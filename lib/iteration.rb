@@ -1,14 +1,6 @@
 def join_ingredients(src)
     
   end 
-  
-  i = 0 
-  while food1[i] do 
-    pizza << "I love #{food1[i]} and #{food2[i]} on my pizza"
-    i += 1 
-  end
-  pizza 
-
 
 end 
 
