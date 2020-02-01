@@ -1,6 +1,6 @@
 def join_ingredients(src)
-  src.map do |toppings|
-    toppings.join(" and ")
+  src.map do |arr|
+    toppings = arr.join(" and ")
     
     "I love #{toppings} on my pizza"
   end
